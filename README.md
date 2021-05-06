@@ -22,13 +22,13 @@ note that this package contains  ***N-Queen problem*** ,solved using this algori
 
 ## Usage
 As you know, Genetic algorithm is a metaheuristic, not a problem (i.e. unlike Prime or TSP) and it needs a problem to be solved.
-you should write a class for your problem and we have a class `Genetic.java` that you must extends it and implements it's methods acording to your problem. mathod you must implements them:
-  - `fitness` : is a method to assign a number to each chromosome that shows quality of this chromosome, this integer could be negative or positive, this integer used to sort chromosomes.
-  - `newChromosome` : is a method to initialize and return a new Chromosome.
-  - `randomInit` : is a method to fill a chromosome with random genomes value.
-  - `mutate` : is a method to performe mutation on a passed chromosome.
+you must implement your own problem class as an extention of `Genetic.java` and implements it's methods according to your problem. mathods you must implements:
+  - `fitness` : is a method to assign a number to each chromosome that shows the quality of this chromosome, this integer could be negative or positive, this integer is used to sort chromosomes.
+  - `newChromosome` : is a method to initialize and return a new Chromosomes.
+  - `randomInit` : is a method to fill a chromosome with random genome values.
+  - `mutate` : is a method to perform mutations on a passed chromosome.
 
-There is sample usage that implements this Genetic class for N-Queen problem and you can find `Sample_NQueens.java` file in main directory.
+There is a sample usage that implements this Genetic class for N-Queen problem and you can find `Sample_NQueens.java` file in main directory.
 
 
   
