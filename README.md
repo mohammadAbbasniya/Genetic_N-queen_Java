@@ -31,4 +31,6 @@ you must implement your own problem class as an extention of `Genetic.java` and 
 There is a sample usage that implements this Genetic class for N-Queen problem and you can find `Sample_NQueens.java` file in main directory.
 
 
-  
+
+
+> documented by: [ali sheikholeslamzade](www.ali.sheikh78@gmail.com)  
