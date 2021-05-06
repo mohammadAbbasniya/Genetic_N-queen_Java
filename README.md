@@ -13,11 +13,11 @@ note that this package contains  ***N-Queen problem*** ,solved using this algori
   - 10% of best chromosomes selected for [mutation](https://en.wikipedia.org/wiki/Mutation_(genetic_algorithm)).
   - 10% of worst chromosomes selected for [mutation](https://en.wikipedia.org/wiki/Mutation_(genetic_algorithm)).
 
-  you can find and change this implementation in `Genetic::trace` at line 60 through 105.
+  you can find and change this implementation in `Genetic::trace` at lines 60 through 105.
   
   
 ### Chromosome
-  this class represents a chromosome in our implementation and contains an array to store gnomes.
+  this class represents a chromosome in our implementation and contains an array to store genomes.
 
 
 ## Usage
