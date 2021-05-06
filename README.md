@@ -22,7 +22,7 @@ note that this package contains  ***N-Queen problem*** ,solved using this algori
 
 ## Usage
 As you know, Genetic algorithm is a metaheuristic, not a problem (i.e. unlike Prime or TSP) and it needs a problem to be solved.
-you must implement your own problem class as an extention of `Genetic.java` and implements it's methods according to your problem. mathods you must implements:
+you must implement your own problem class as an extention of `Genetic.java` and implement it's methods according to your problem. methods you must implement:
   - `fitness` : is a method to assign a number to each chromosome that shows the quality of this chromosome, this integer could be negative or positive, this integer is used to sort chromosomes.
   - `newChromosome` : is a method to initialize and return a new Chromosomes.
   - `randomInit` : is a method to fill a chromosome with random genome values.
