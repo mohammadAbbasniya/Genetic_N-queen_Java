@@ -5,7 +5,7 @@ note that this package contains  ***N-Queen problem*** ,solved using this algori
   
 ## Classes
 ### Genetic class
-  This class contains the algorithm as a whole. your problem class must be a derivation of this algorithm class for the problem to be solved using genetic.
+  This class contains the algorithm as a whole. your problem class must be a derivation of this algorithm class for the problem to be solved using genetic algorithm.
   In my implementation, next generation is producted in this way:
   - 60% of next population is created by [Crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)) by choosing the chromosomes of previous population. 
   - 10% of best chromosomes directly moved to next generation.
