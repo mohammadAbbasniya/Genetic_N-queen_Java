@@ -33,4 +33,4 @@ There is a sample usage that implements this Genetic class for N-Queen problem a
 
 
 
-> documented by: [ali sheikholeslamzade](www.ali.sheikh78@gmail.com)  
+> documented by: ali sheikholeslamzade (www.ali.sheikh78@gmail.com)  
