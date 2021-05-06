@@ -2,6 +2,10 @@ package src;
 
 import java.util.*;
 
+/**
+ * class to represent whole algorithms
+ * @param <GEN> data type of genomes that chromosomes of algorithm will contains
+ */
 abstract public class Genetic<GEN> {
     protected final int fitnessThreshold;
     protected final int generationThreshold;
