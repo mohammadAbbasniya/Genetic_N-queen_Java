@@ -5,20 +5,19 @@ note that this package contains  ***N-Queen problem*** ,solved using this algori
   
 ## Classes
 ### Genetic class
-  This class contains whole algorithm. you must extends this class for your own problem class to be solved using genetic lgorithm.
+  This class contains the algorithm as a whole. your problem class must be a derivation of this algorithm class for the problem to be soled using genetic.
   In my implementation, next generation is producted in this way:
-  - 60% of next population is created by [Crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)). 
-   with 60% of best chromosomes of previous population.
+  - 60% of next population is created by [Crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)) by choosing the chromosomes of previous population. 
   - 10% of best chromosomes directly moved to next generation.
   - 10% of worst chromosomes directly moved to next generation.
   - 10% of best chromosomes selected for [mutation](https://en.wikipedia.org/wiki/Mutation_(genetic_algorithm)).
   - 10% of worst chromosomes selected for [mutation](https://en.wikipedia.org/wiki/Mutation_(genetic_algorithm)).
 
-  you can find and change this implementation in `Genetic::trace` at line 60 throw 105.
+  you can find and change this implementation in `Genetic::trace` at line 60 through 105.
   
   
 ### Chromosome
-  this class represent a chromosome in program and contains an array to store genomes.
+  this class represents a chromosome in our implementation and contains an array to store gnomes.
 
 
 ## Usages
