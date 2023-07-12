@@ -1,4 +1,4 @@
-# 🧬 Genetic Algorithm (GA)
+# Solve N-Queen using Genetic Algorithm (GA) in Java
 A simple and powerful implementation of [AI Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) in java. all source codes are fully documented.
 
 note that this package contains  ***N-Queen problem*** ,solved using this algorithm.
